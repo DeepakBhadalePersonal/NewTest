@@ -71,7 +71,6 @@ public class test
 
         HSSFCellStyle stylebottom = (HSSFCellStyle)wb.CreateCellStyle();
         stylebottom.BorderBottom = BorderStyle.Thick;
-
         int i = 0;	
         foreach (string header in new string[] { "ID", "Name", "Age" })
         {
