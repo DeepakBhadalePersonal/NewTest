@@ -87,7 +87,6 @@ public class test
             {
                 cell.CellStyle = stylerttop;
             }
-            
         }
         Random rand = new Random();
         ICell? cell1 = null;
